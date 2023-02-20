@@ -1,0 +1,17 @@
+{
+    "manifest_version":3,
+    "name":"Sentence rewriter",
+    "description":"using OpenAI API, enter in a sentence and it will rewrite it 3 separate ways",
+    "version":"1.0.0",
+    "action":{
+        "default_popup":"popup/popup.html"
+    },
+    "background":{
+        "service_worker":"background.js",
+        "type":"module"
+    },
+    "permissions":[
+        "storage"
+    ]
+    
+}
